@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springOauth2" />
+        <module name="sso" />
+        <module name="hello" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="autherization-server" target="12" />
+      <module name="jwt" target="12" />
+      <module name="login" target="12" />
+      <module name="oauth2-server" target="12" />
+      <module name="resource-server" target="12" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="autherization-server" options="-parameters" />
+      <module name="hello" options="-parameters" />
+      <module name="jwt" options="-parameters" />
+      <module name="login" options="-parameters" />
+      <module name="oauth2-server" options="-parameters" />
+      <module name="resource-server" options="-parameters" />
+      <module name="springOauth2" options="-parameters" />
+      <module name="sso" options="-parameters" />
+    </option>
+  </component>
+</project>
